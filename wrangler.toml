@@ -1,0 +1,15 @@
+name = "anomaly-studiosk"
+compatibility_date = "2024-01-15"
+pages_build_output_dir = "."
+
+[env.production]
+name = "anomaly-studios"
+
+[env.development]
+name = "anomaly-studios-dev"
+
+# Uncomment and configure if you want to use KV storage for form submissions
+# [[kv_namespaces]]
+# binding = "FORM_SUBMISSIONS"
+# id = "your-kv-namespace-id"
+# preview_id = "your-preview-kv-namespace-id" 
